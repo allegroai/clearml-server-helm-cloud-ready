@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  clearml-server-cloud-ready:
+  - apiVersion: v2
+    appVersion: "0.17"
+    created: "2021-04-04T20:43:52.408291435+03:00"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.9.0
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: ~10.3.2
+    - condition: elasticsearch.enabled
+      name: elasticsearch
+      repository: https://helm.elastic.co
+      version: ~7.10.1
+    description: Clearml server Helm chart for Kubernetes
+    digest: 1fa2ee9d8f91d5a6ca09da022d20341aa9c661a1176bba3d7da80b3446254696
+    name: clearml-server-cloud-ready
+    urls:
+    - clearml-server-cloud-ready-1.0.0.tgz
+    version: 1.0.0
+generated: "2021-04-04T20:43:52.394695046+03:00"
