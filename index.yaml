@@ -3,7 +3,7 @@ entries:
   clearml-server-cloud-ready:
   - apiVersion: v2
     appVersion: "0.17"
-    created: "2021-04-13T12:16:09.733799363+03:00"
+    created: "2021-04-13T18:51:01.536337225+03:00"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -18,9 +18,9 @@ entries:
       repository: https://helm.elastic.co
       version: ~7.10.1
     description: Clearml server Helm chart for Kubernetes
-    digest: 6031aa40245456f30748872b4cd1559dea2c2172daca2ec2503c906b0eb7d8b0
+    digest: 7879cad2e796689afa1ffabaa5242abc735f15c16c4dd206d1d2da9db6970199
     name: clearml-server-cloud-ready
     urls:
     - clearml-server-cloud-ready-1.0.0.tgz
     version: 1.0.0
-generated: "2021-04-13T12:16:09.719800524+03:00"
+generated: "2021-04-13T18:51:01.521374177+03:00"
